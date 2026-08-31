@@ -1,6 +1,9 @@
 import os
 
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Configuration
 CHANNEL_ID = os.environ["DISCORD_CHANNEL_ID"]

@@ -4,7 +4,10 @@ import random
 from xmlrpc import client
 import requests
 import websockets
+from dotenv import load_dotenv
 from websockets import client
+
+load_dotenv()
 
   # Generate a unique client ID based on the current timestamp
 class Room:
